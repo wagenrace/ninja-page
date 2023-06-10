@@ -20,16 +20,9 @@ export default createRouter({
       name: "Pictures"
     },
     {
-      path: path_about,
-      component: () => import('@/views/About.vue'),
-      name: "About"
-    },
-    {
       path: path_contact,
       component: () => import('@/views/Contact.vue'),
       name: "Contact"
     },
   ],
 })
-
-// export const path_home, path_about, path_contact

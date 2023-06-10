@@ -8,10 +8,6 @@
     "routerName": "Pictures"
   },
   {
-    "navName": "About",
-    "routerName": "About"
-  },
-  {
     "navName": "Contact",
     "routerName": "Contact"
   }
