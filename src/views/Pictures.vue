@@ -1,7 +1,5 @@
 <template>
   <ArticlePage>
-    <h2>Pictures</h2>
-
     <div class="gallery">
       <div class=" image" v-for="(image, index) in images" :key="index">
         <img :src="image" alt="Gallery Image" @click="showImage(index)" />
