@@ -1,3 +1,8 @@
+<script setup>
+import ArticlePage from "./ArticlePage.vue";
+</script>
 <template>
-  <h2>Pictures</h2>
+  <ArticlePage>
+    <h2>Pictures</h2>
+  </ArticlePage>
 </template>
