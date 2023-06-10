@@ -1,0 +1,18 @@
+[
+  {
+    "navName": "Home",
+    "routerName": "Home"
+  },
+  {
+    "navName": "Pictures",
+    "routerName": "Pictures"
+  },
+  {
+    "navName": "About",
+    "routerName": "About"
+  },
+  {
+    "navName": "Contact",
+    "routerName": "Contact"
+  }
+]

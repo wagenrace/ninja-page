@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-3xl pb-3;
+    }
+    h2 {
+      @apply text-2xl;
+    }
+    p {
+      @apply pb-4;
+    }
+  }
+  
+  @layer components {
+      .router-link-default {
+          @apply text-gray-300
+            hover:bg-gray-100 hover:text-company-color-500
+            px-3
+            py-2
+            m-2
+            rounded-full
+            text-lg
+            bg:text-xl
+            font-bold
+        }
+    .router-link-exact-active {
+      @apply rounded-full bg-gray-100 text-company-color-500 w-auto;
+    }
+  }
