@@ -1,16 +1,21 @@
 <template>
-  <div class="gallery">
-    <div class=" image" v-for="(image, index) in images" :key="index">
-      <img :src="image" alt="Gallery Image" @click="showImage(index)" />
+  <ArticlePage>
+    <h2>Pictures</h2>
+
+    <div class="gallery">
+      <div class=" image" v-for="(image, index) in images" :key="index">
+        <img :src="image" alt="Gallery Image" @click="showImage(index)" />
+      </div>
+      <div v-if="showModal" class="modal" @click="closeModal">
+        <span class="close" @click="closeModal">&times;</span>
+        <img :src="images[activeImageIndex]" alt="Gallery Image" class="modal-image" />
+      </div>
     </div>
-    <div v-if="showModal" class="modal" @click="closeModal">
-      <span class="close" @click="closeModal">&times;</span>
-      <img :src="images[activeImageIndex]" alt="Gallery Image" class="modal-image" />
-    </div>
-  </div>
+  </ArticlePage>
 </template>
 
 <script>
+import ArticlePage from "./ArticlePage.vue";
 import { reactive, ref } from 'vue';
 
 export default {
@@ -59,6 +64,7 @@ export default {
       activeImageIndex,
       showImage,
       closeModal,
+      ArticlePage
     };
   },
 };
