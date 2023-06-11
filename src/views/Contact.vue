@@ -25,7 +25,7 @@ import ArticlePage from "./ArticlePage.vue";
     <label for="message">Bericht:</label><br>
     <textarea id="message" name="message" rows="5" required></textarea><br>
 
-    <button onclick="alert('Laura is de kamer die grenst aan die van Gerrit.')">Verstuur</button>
+    <button onclick="alert('Laura is de kamer die grenst aan die van Gerrit')">Verstuur</button>
 
 
   </ArticlePage>
