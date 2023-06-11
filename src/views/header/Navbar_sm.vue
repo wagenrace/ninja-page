@@ -2,25 +2,25 @@
   <div class="sticky top-0 z-50">
     <nav class="w-full">
       <div class="
-                  bg-company-color-500
-                  relative
-                  flex
-                  items-center
-                  justify-between
-                  h-20
-                ">
+                    bg-company-color-500
+                    relative
+                    flex
+                    items-center
+                    justify-between
+                    h-20
+                  ">
         <div class="absolute inset-y-0 left-0 flex items-center">
           <!-- Mobile menu button-->
           <button type="button" @click="toggleMenu" class="
-                      inline-flex
-                      items-center
-                      justify-center
-                      p-4
-                      rounded-md
-                      text-gray-400
-                      hover:text-white hover:bg-gray-700
-                      focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
-                    " aria-controls="mobile-menu" aria-expanded="false">
+                        inline-flex
+                        items-center
+                        justify-center
+                        p-4
+                        rounded-md
+                        text-gray-400
+                        hover:text-white hover:bg-gray-700
+                        focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
+                      " aria-controls="mobile-menu" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <!--
               Icon when menu is closed.
@@ -48,21 +48,21 @@
         </div>
 
         <div class="
-                    flex-1 flex
-                    h-full
-                    overflow-visible
-                    items-center
-                    justify-center
-                  ">
-          <div class="
-                      flex-col flex
+                      flex-1 flex
                       h-full
                       overflow-visible
                       items-center
                       justify-center
                     ">
+          <div class="
+                        flex-col flex
+                        h-full
+                        overflow-visible
+                        items-center
+                        justify-center
+                      ">
             <router-link class="bg-transparent" to="/">
-              <h1 class="text-gray-200">Omas Ninja Service</h1>
+              <h1 class="text-gray-200">Oma Ninja Service</h1>
             </router-link>
           </div>
         </div>
